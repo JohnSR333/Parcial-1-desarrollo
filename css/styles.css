@@ -1,0 +1,78 @@
+.app-header {
+    background-color: #1e3a8a;
+    color: #fff;
+    padding: 15px;
+}
+
+.app-header nav a {
+    color: #fff;
+    margin: 0 10px;
+    text-decoration: none;
+}
+
+.app-header nav a:hover {
+    text-decoration: underline;
+}
+
+.app-content {
+    margin: 10px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 12px;
+    background: #fff;
+}
+
+.app-content h1 {
+    margin: 0;
+    font-size: 18px;
+    color: #1e3a8a;
+}
+
+.app-footer {
+    background-color: #ddd;
+    padding: 12px;
+    font-style: italic;
+    font-weight: bold;
+    text-align: center;
+}
+
+.app-card {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    margin: 20px auto;
+    box-shadow: 0px 2px 6px rgba(0,0,0,0.1);
+    width: 98vw;
+    max-width: 1400px;      
+    background: #fff;
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+.app-card h2 {
+    margin: 24px 0 10px 0;
+    font-size: 32px;
+    color: #1e3a81;
+}
+
+.product-image {
+    display: block;
+    margin: 0 auto 20px auto;
+    width: 96%;             
+    height: 180px;          
+    object-fit: contain;
+    background: #f4f4f4;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.10);
+}
+
+.app-card p {
+    color: #555;
+    margin: 0 0 12px 0;
+    font-size: 22px;
+}
+
+.product-price {
+    font-weight: bold;
+    color: #0a7c2e;
+    font-size: 26px;
+    margin-bottom: 24px;
+}
