@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Teclados</title>
+  <link rel="stylesheet" href="../css/styles.css">
+  <script src="../js/main.js" defer></script>
+</head>
+<body>
+  <div id="header"></div>
+  <div class="layout">
+    <div id="sidebar"></div>
+    <div class="app-content">
+      <h1>Catálogo de Teclados</h1>
+      <p>Descubre nuestra variedad de teclados mecánicos, inalámbricos y más para tu setup.</p>
+
+      <template id="card-template">
+        <div class="app-card">
+          <h2 class="title"></h2>
+          <img class="product-image" src="" alt="Imagen producto">
+          <p class="desc"></p>
+          <p class="product-price"></p>
+        </div>
+      </template>
+
+      <div id="contenedor"></div>
+    </div>
+  </div>
+  <div id="footer"></div>
+
+  <script>
+    fetch("../data/productos.json")
+      .then(r => r.json())
+      .then(data => {
+        const template = document.getElementById("card-template");
+        const contenedor = document.getElementById("contenedor");
+
+        data.filter(p => p.categoria === "teclados")
+            .forEach(p => {
+              const clon = template.content.cloneNode(true);
+              clon.querySelector(".title").textContent = p.titulo;
+              clon.querySelector(".desc").textContent = p.desc;
+              clon.querySelector(".product-image").src = p.image;
+              clon.querySelector(".product-image").alt = p.titulo;
+              clon.querySelector(".product-price").textContent = p.price;
+              contenedor.appendChild(clon);
+            });
+      });
+  </script>
+</body>
+</html>

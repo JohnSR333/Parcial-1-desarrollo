@@ -1,8 +1,8 @@
 const loginForm = document.getElementById("loginForm");
 const errorMsg = document.getElementById("error-msg");
 
-const USER = "admin";
-const PASS = "1234";
+const USER = "prueba";
+const PASS = "2329";
 
 loginForm.addEventListener("submit", function(event) {
   event.preventDefault();

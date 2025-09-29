@@ -1,0 +1,86 @@
+[
+  {
+    "titulo": "Laptop Gamer",
+    "desc": "16GB RAM, RTX 3060",
+    "image": "https://imggraficos.gruporeforma.com/2022/05/Laptops-gamer-asus-hot-sale-2022-2.png",
+    "price": "$12.000.000",
+    "categoria": "computadores"
+  },
+  {
+    "titulo": "PC Escritorio",
+    "desc": "Intel i5, 8GB RAM",
+    "image": "https://megacomputer.com.co/wp-content/uploads/2024/09/1-1.webp",
+    "price": "$3.000.000",
+    "categoria": "computadores"
+  },
+  {
+    "titulo": "Mini PC Ultra",
+    "desc": "Compacto, SSD 512GB, 16GB RAM",
+    "image": "https://tse3.mm.bing.net/th/id/OIP.lorQ7rmnwIPKvI4XqxMuOgHaEq?pid=ImgDet&w=190&h=119&c=7&o=7&rm=3",
+    "price": "$2.500.000",
+    "categoria": "computadores"
+  },
+  {
+    "titulo": "Computador Gamer",
+    "desc": "Ideal para pasar la tarde jugando o trabajando.",
+    "image": "https://tse1.mm.bing.net/th/id/OIP.ulzKaPkkBzrGvHlp25RuZQHaD6?rs=1&pid=ImgDetMain&o=7&rm=3",
+    "price": "$5.000.000",
+    "categoria": "computadores"
+  },
+  {
+    "titulo": "Teclado Mecánico RGB",
+    "desc": "Switches multicolor",
+    "image": "https://tse1.mm.bing.net/th/id/OIP.B7Aq3x8KjEHCucteCRT57gHaHa?rs=1&pid=ImgDetMain&o=7&rm=3",
+    "price": "$300.000",
+    "categoria": "teclados"
+  },
+  {
+    "titulo": "Teclado Compacto",
+    "desc": "65% Wireless",
+    "image": "https://m.media-amazon.com/images/I/61SUyRwMYYL._AC_SL1500_.jpg",
+    "price": "$200.000",
+    "categoria": "teclados"
+  },
+  {
+    "titulo": "Teclado Gamer Iluminado",
+    "desc": "Retroiluminación RGB, teclas multimedia",
+    "image": "https://tse1.mm.bing.net/th/id/OIP.QvsjBkJtHqqfkRWgrxPz5gHaHa?pid=ImgDet&w=190&h=190&c=7&o=7&rm=3",
+    "price": "$350.000",
+    "categoria": "teclados"
+  },
+  {
+    "titulo": "Teclado Ergonómico",
+    "desc": "Diseño cómodo para largas sesiones",
+    "image": "https://tse3.mm.bing.net/th/id/OIP.tPkZc7lj5fuIm5vEW7ITcgHaEz?rs=1&pid=ImgDetMain&o=7&rm=3",
+    "price": "$280.000",
+    "categoria": "teclados"
+  },
+  {
+    "titulo": "Auriculares Pro",
+    "desc": "Cancelación de ruido",
+    "image": "https://media.istockphoto.com/id/1412240771/es/foto/auriculares-sobre-fondo-blanco.webp?a=1&b=1&s=612x612&w=0&k=20&c=aNUSemNgo8ycvDh085YCRNBTx2cte7q3qC72x3Yhzz8=",
+    "price": "$150.000",
+    "categoria": "auriculares"
+  },
+  {
+    "titulo": "Auriculares Gamer",
+    "desc": "Sonido 7.1 Surround",
+    "image": "https://tse1.mm.bing.net/th/id/OIP.KcD3qbVn6Qx5T3-0d1glKwHaHa?rs=1&pid=ImgDetMain&o=7&rm=3",
+    "price": "$250.000",
+    "categoria": "auriculares"
+  },
+  {
+    "titulo": "Auriculares Bluetooth",
+    "desc": "Conexión inalámbrica, batería de larga duración",
+    "image": "https://m.media-amazon.com/images/I/91BXVsQpuZL._AC_SL1500_.jpg",
+    "price": "$180.000",
+    "categoria": "auriculares"
+  },
+  {
+    "titulo": "Auriculares Deportivos",
+    "desc": "Resistentes al agua, perfectos para entrenar",
+    "image": "https://i.blogs.es/24f7b7/imagengrande1/1366_2000.jpeg",
+    "price": "$120.000",
+    "categoria": "auriculares"
+  }
+]
