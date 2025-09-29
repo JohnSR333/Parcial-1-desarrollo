@@ -2,31 +2,32 @@
 <html lang="es">
 <head>
   <meta charset="UTF-8">
-  <title>Inicio - Tienda</title>
+  <title>Tienda Electrónica</title>
   <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
   <div id="header"></div>
+  <div class="layout">
+    <div id="sidebar"></div>
+    <div class="app-content">
+      <h1>Productos Disponibles</h1>
 
+      <template id="card-template">
+        <div class="app-card">
+          <h2 class="title"></h2>
+          <img class="product-image" />
+          <p class="desc"></p>
+          <p class="product-price"></p>
+        </div>
+      </template>
 
-  <div id="sidebar"></div>
-
-  <div id="content" class="app-content">
-    <h1>Productos</h1>
-    <div id="contenedor"></div>
-
-    <template id="card-template">
-      <div class="app-card">
-        <h2 class="title"></h2>
-        <img class="product-image" />
-        <p class="desc"></p>
-        <p class="product-price"></p>
-      </div>
-    </template>
+      <div id="contenedor"></div>
+    </div>
   </div>
-
   <div id="footer"></div>
 
+  <script src="js/fragments.js"></script>
   <script src="js/main.js"></script>
+  <script src="js/productCard.js"></script>
 </body>
 </html>
