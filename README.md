@@ -44,3 +44,5 @@ Código indentado, separado en archivos y con comentarios.
 **Web Components:** hacen que un producto sea un componente independiente y reutilizable.
 **Login:** validación con JS y redirección si es correcto.
 **Buenas prácticas:** todo modularizado y organizado en carpetas.
+
+
